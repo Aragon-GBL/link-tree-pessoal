@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    --bg-color: lightcyan;
+    --text-color: black;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    
+    text-align: center;
+    width: 300px;
+    margin: 70px auto 0px;
+    
+  }
+  
+  
+  h1 {
+    font-size: 32px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  
+  .username {
+      font-family: 'Roboto Mono', monospace;
+      font-weight: 400;
+      color: gray;
+      opacity: 0.9;
+      font-size: 18px;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  img.avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: lightskyblue solid 3.7px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 48px;
+  }
+  
+  
+  
+  ul li a {
+    height: 53px;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+    background: lightskyblue;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+  
+    margin-bottom: 16px;
+    border-radius: 12px;
+  
+    transition: background  450ms;
+    transition: color 450ms;
+  }
+  
+  ul li a:hover {
+    background-color: rgb(91, 138, 157);
+    color: lightskyblue;
+  }
+  
+  footer {
+    font-weight: 500;
+    font-size: 13px;
+    color: black;
+    opacity: 0.7;
+  }
+  
+  footer a:hover {
+    color: darkblue;
+  } 
+  
+  footer a {
+    color: blue;
+  }
